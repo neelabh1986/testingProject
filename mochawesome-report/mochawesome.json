@@ -1,0 +1,140 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-25T16:25:30.643Z",
+    "end": "2021-05-25T16:26:01.676Z",
+    "duration": 31033,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2fefb9d7-b029-414d-810d-caf83296c9c9",
+      "title": "",
+      "fullFile": "cypress/integration/homePage.spec.js",
+      "file": "cypress/integration/homePage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5d66a14f-8b4f-4272-9f04-4abd5f679183",
+          "title": "Home Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visit website",
+              "fullTitle": "Home Page Visit website",
+              "timedOut": null,
+              "duration": 6086,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(Cypress.env('domain'));",
+              "err": {},
+              "uuid": "d9b9fbdb-18d8-468e-8659-34003d4e2d8c",
+              "parentUUID": "5d66a14f-8b4f-4272-9f04-4abd5f679183",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "contact us",
+              "fullTitle": "Home Page contact us",
+              "timedOut": null,
+              "duration": 14725,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.enterContactDetail();",
+              "err": {},
+              "uuid": "f3e5374d-3a80-40aa-9080-b63aedb014f7",
+              "parentUUID": "5d66a14f-8b4f-4272-9f04-4abd5f679183",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "logout page",
+              "fullTitle": "Home Page logout page",
+              "timedOut": null,
+              "duration": 3054,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.successMessage();",
+              "err": {},
+              "uuid": "790a254d-889f-457f-a3be-0890f177cc83",
+              "parentUUID": "5d66a14f-8b4f-4272-9f04-4abd5f679183",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d9b9fbdb-18d8-468e-8659-34003d4e2d8c",
+            "f3e5374d-3a80-40aa-9080-b63aedb014f7",
+            "790a254d-889f-457f-a3be-0890f177cc83"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 23865,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

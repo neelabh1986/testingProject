@@ -1,0 +1,17 @@
+{
+    "integrationFolder": "cypress/integration",
+    "screenshotsFolder": "cypress/reports/mocha/assets",
+    "videoFolder": "cypress/video",
+    "reporter": "cypress-multi-reporters",
+    "baseURL": "https://visionqa.com/",
+    "reporterOptions": {
+        "configFile": "reporterOptions.json"
+    },
+    "env": {
+        "domain": "https://visionqa.com/contact-us/",
+        "username": "test@test.com",
+        "fullName": "VisionQA",
+        "phoneNumber": "1122334455",
+        "message": "I am so glad that I have connected with VisionQA."
+    }
+}
