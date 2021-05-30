@@ -4,7 +4,7 @@ This is a testing project
 
 npm run cy:run
 
-After running the above command, the report will generate in the cypress/reports folder and recording will generate in the cypress/videos folder 
+After running the above command, the report will generate in the cypress/reports folder and recording will generate in the cypress/videos folder.
 
 # test cases 
 
